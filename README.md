@@ -4,9 +4,7 @@ App en React (Vite) que permite listar, agregar y eliminar contactos, transforma
 
 ## Demo en vivo
 
-> Reemplaza este link por tu URL de Netlify despues del deploy:
-
-**https://TU-SITIO.netlify.app**
+**https://regal-concha-9d900e.netlify.app**
 
 ## Como instalar la app en el celular
 
