@@ -32,12 +32,17 @@ Ninguna usa backend — toda la persistencia se maneja con `localStorage` — y 
 - [Parte 2 — Ionic React](#parte-2--ionic-react-visitas-del-médico)
 - [Condiciones del enunciado](#condiciones-del-enunciado)
 
+Cada parte trae sus propias capturas en la sección "Capturas" correspondiente.
+
 ## Estructura del repositorio
 
 ```text
 parcial-1-carlos-orozco/
-├── PWA-React/      → Parte 1 — Administración de pacientes
-├── Ionic-React/    → Parte 2 — Visitas del médico
+├── PWA-React/          → Parte 1 — Administración de pacientes
+├── Ionic-React/        → Parte 2 — Visitas del médico
+├── capturas/
+│   ├── pwa-react/      → Evidencia de Parte 1 funcionando
+│   └── ionic-react/    → Evidencia de Parte 2 funcionando
 └── README.md
 ```
 
@@ -68,6 +73,16 @@ npm install
 npm run dev
 ```
 
+### Capturas
+
+| Login — credenciales incorrectas | Login — a punto de entrar |
+|---|---|
+| ![Login con error](capturas/pwa-react/01-login-error.png) | ![Login correcto](capturas/pwa-react/02-login-correcto.png) |
+
+| Listado de pacientes | Búsqueda filtrando |
+|---|---|
+| ![Listado de pacientes](capturas/pwa-react/03-pacientes-listado.png) | ![Búsqueda filtrando](capturas/pwa-react/04-busqueda-filtrando.png) |
+
 ---
 
 ## Parte 2 — Ionic React (Visitas del médico)
@@ -94,6 +109,20 @@ cd Ionic-React
 npm install
 npm run dev
 ```
+
+### Capturas
+
+| Login | Login — credenciales incorrectas |
+|---|---|
+| ![Login Ionic](capturas/ionic-react/01-login.png) | ![Login con IonToast de error](capturas/ionic-react/02-login-error-toast.png) |
+
+| Tabs — visitas del día |
+|---|
+| ![Tabs con visitas](capturas/ionic-react/03-tabs-visitas.png) |
+
+| Detalle — pendiente | Detalle — en camino |
+|---|---|
+| ![Detalle pendiente](capturas/ionic-react/04-detalle-pendiente.png) | ![Detalle en camino](capturas/ionic-react/05-detalle-en-camino.png) |
 
 ---
 
